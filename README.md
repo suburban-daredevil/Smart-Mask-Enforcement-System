@@ -22,5 +22,5 @@ Audio samples of length 2 sec recorded by me uttering of the keyword 'Alexa'. Al
 #### Image Model
 Tiny_Conv model trained on the Spectogram of the microphone input
 #### Audio Model
-MobileNetV1 for trained on the 96x96 Grayscale images
+MobileNetV1 trained on the 96x96 Grayscale images
 ## Try this project
