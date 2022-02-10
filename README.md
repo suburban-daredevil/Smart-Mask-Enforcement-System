@@ -25,14 +25,6 @@ Tiny_Conv model trained on the Spectogram of the microphone input
 MobileNetV1 trained on the 96x96 Grayscale images
 
 ## Try this project
-### Requirements
-* Arduino Nano 33 BLE Sense with Headers
-* Solderless breadboard
-* USB cable
-* F-M, M-M cables
-* OV7670 camera module
-
-### Initial Setup
 
 ### Steps
 
@@ -44,3 +36,5 @@ git clone https://github.com/suburban-daredevil/Smart-Mask-Enforcement-System.gi
 
 2. Download and install the [Arduino](https://www.arduino.cc/en/software) IDE for you OS
 3. Open the project in the Arduino IDE
+4. Ensure the board and port are set
+5. Deploy the code
