@@ -15,12 +15,12 @@ This is a TinyML application which intelligently predicts whether you are presen
 ## Details
 ### Dataset
 #### Image Dataset
-For the image dataset, I had capurted images of myself using the OV7670 camera model under 2 classes (i.e masked and unmasked)
+Images of myself captured using the OV7670 camera module under 2 classes (i.e masked and unmasked)
 #### Audio Dataset
-For the audio dataset, I had recorded 2 sec long audio samples of myself uttering the word 'Alexa'. I had also added audio samples from the Pete's Keyword Spotting Dataset for unknown and background noise data
+Audio samples of length 2 sec recorded by me uttering of the keyword 'Alexa'. Also added audio samples Pete's Keyword Spotting Dataset for unknown and background noise data
 ### Model
 #### Image Model
 Tiny_Conv model trained on the Spectogram of the microphone input
 #### Audio Model
-MoobileNetV1 for trained on the 96x96 Grayscale images
+MobileNetV1 for trained on the 96x96 Grayscale images
 ## Try this project
