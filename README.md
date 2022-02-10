@@ -2,10 +2,18 @@
 
 ## Introduction
 
-Masks are one of the two primary weapons that we have against the unwanted neighbour of ours (ofc the COVID-19 virus). We all know the importance of wearing masks in public places <br><br>
+Masks are one of the two primary weapons that we have against the unwanted neighbour of ours (of course the COVID-19 virus). We all know the importance of wearing masks in public places <br>
 
-Presenting to you the 'Smart Mask Enforcement System' <br>
+Presenting to you - Smart Mask Enforcement System <br>
 
-This is a TinyML application which intelligently predicts whether you are masked or not through the input it recieves through its camera module (the OV7670 camera module) <br>
+This is a TinyML application which intelligently predicts whether you are present or not using the input it recieves through its inbuilt microphone and then predicts whether you are masked or not through the input it recieves through its camera module (the OV7670 camera module) <br>
 
+## Areas of application
 
+## Demo
+
+## Images
+
+## Details
+
+## Try this project
