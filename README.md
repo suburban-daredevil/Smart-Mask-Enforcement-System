@@ -23,18 +23,3 @@ Audio samples of length 2 sec recorded by me uttering of the keyword 'Alexa'. Al
 Tiny_Conv model trained on the Spectogram of the microphone input
 #### Audio Model
 MobileNetV1 trained on the 96x96 Grayscale images
-
-## Try this project
-
-### Steps
-
-1. Clone this repository <br>
-
-```
-git clone https://github.com/suburban-daredevil/Smart-Mask-Enforcement-System.git
-```
-
-2. Download and install the [Arduino](https://www.arduino.cc/en/software) IDE for you OS
-3. Open the project in the Arduino IDE
-4. Ensure the board and port are set
-5. Deploy the code
