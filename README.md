@@ -29,8 +29,10 @@ MobileNetV1 trained on the 96x96 Grayscale images
 * Arduino Nano 33 BLE Sense with Headers
 * Solderless breadboard
 * USB cable
-* 18 F-M cables, 6 M-M cables
+* F-M, M-M cables
 * OV7670 camera module
+
+### Initial Setup
 
 ### Steps
 
