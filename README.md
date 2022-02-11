@@ -22,12 +22,17 @@ Presenting to you - **Smart Mask Enforcement System** <br>
 
 This is a TinyML application which operates on the MultiTenant Cascading architecture. This TinyML application intelligently predicts whether you are present or not using the input it recieves through its inbuilt microphone and then predicts whether you are masked or not through the input it recieves through its camera module (the OV7670 camera module) and actuates appropriate responses. <br>
 
+This TinyML application runs two NN back to back. One is for person detection through its inbuilt microphone input. Once a person is identified by the first NN, it triggers the next bigger NN which takes its input from the camera module and runs a NN and predicts if the person is masked or not.
+
 ## Constraints and Challanges
 **Dataset** <br>
 Creating a model that is generic enough to works for all sections of the society requires an enourmous amount of data. Since this application involves both the audio and visual aspects, it requires enormous amounts of audio and visual data. <br>
 
 **Memory** <br>
-Since this is a TinyML application, memory is a big constraint. Hence it becomes difficult to store and process high dimensional coloured input feeds coming in from the camera module. Moreover since we are running two NN for inferencing, it presents an additional challange on the memory of the MCU. <br.
+Since this is a TinyML application, memory is a big constraint. Hence it becomes difficult to store and process high dimensional coloured input feeds coming in from the camera module. Moreover since we are running two NN for inferencing, it presents an additional challange on the memory of the MCU. <br>
+
+**Model** <br>
+Even if we have great datasets spanning across all the sections of the society and excellent models to make predictions, due to the memory constraints imposed by the MCU, it becomes almost impossible to use those models on our MCU. Hence we have a fixed subset of small models that could be used with our MCU. <br>
 
 ## Demo
 
@@ -36,15 +41,20 @@ Since this is a TinyML application, memory is a big constraint. Hence it becomes
 ## Specifications of the project
 
 ### Dataset
-#### Image Dataset
-Images of myself captured using the OV7670 camera module under 2 classes (i.e masked and unmasked)
-#### Audio Dataset
-Audio samples of length 2 sec recorded by me uttering of the keyword 'Alexa'. Also added audio samples Pete's Keyword Spotting Dataset for unknown and background noise data
+
+**Audio Dataset** <br>
+The audio dataset consists of audio samples of length 2 sec recorded by me uttering the keyword 'Alexa'. Also added audio samples from the publicly available Pete's Keyword Spotting Dataset for unknown and background noise data. <br>
+
+**Image Dataset** <br>
+The image dataset consists of images of myself captured using the OV7670 camera module under 2 classes (i.e masked and unmasked). <br>
+
 ### Model
-#### Image Model
-Tiny_Conv model trained on the Spectogram of the microphone input
-#### Audio Model
-MobileNetV1 trained on the 96x96 Grayscale images
+
+**Audio Model**<br>
+Tiny_Conv model trained on the Spectogram of the microphone input. <br>
+
+**Image Model** <br>
+MobileNetV1 trained on the 96x96 Grayscale images. <br>
 
 ## Try this project out
 
