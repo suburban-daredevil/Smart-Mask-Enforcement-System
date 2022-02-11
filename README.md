@@ -1,14 +1,14 @@
 # Smart Mask Enforcement System using TinyML
 
 ## Table of contents
-* [Purpose of the project](#Purpose of the project)
-* [Description of the project](#Description of the project)
-* [Constraints and Challanges](#Constraints and Challanges)
+* [Purpose of the project](#Purpose-of-the-project)
+* [Description of the project](#Description-of-the-project)
+* [Constraints and Challanges](#Constraints-and-Challanges)
 * [Demo](#Demo)
-* [Images]
-* [Specification of the project]
-* [Try this project out]
-* [Disclaimer]
+* [Images](#Images)
+* [Specification of the project](#Specification-of-the-project)
+* [Try this project out](#Try-this-project-out)
+* [Disclaimer](#Disclaimer)
 
 ## Purpose of the project
 
