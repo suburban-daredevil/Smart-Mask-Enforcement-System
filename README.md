@@ -59,3 +59,5 @@ MobileNetV1 trained on the 96x96 Grayscale images. <br>
 ## Try this project out
 
 ## Disclaimer
+
+Since this model operates on an extremely low powered and memory constrained MCU, there are chances of occasional occurences of False positives and False negatives. Further improvements on the dataset and model is required to make the model more generalisable before real world deployement. <br>
