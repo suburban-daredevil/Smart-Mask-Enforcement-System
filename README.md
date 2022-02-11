@@ -58,6 +58,30 @@ MobileNetV1 trained on the 96x96 Grayscale images. <br>
 
 ## Try this project out
 
+### Hardware Requirements
+* Arduino Nano 33 BLE Sense with headers
+* Solderless breadboard
+* USB cable
+* 0V7670 camera module
+* M-M , M-F jumper wires
+* LEDs
+
+### Software Requirements
+* [Arduino](https://www.arduino.cc/en/software) IDE for you OS
+
+### Steps
+* Clone this project 
+
+```
+git clone https://github.com/suburban-daredevil/Smart-Mask-Enforcement-System.git
+
+```
+
+* Open `Smart-Mask-Enforcement-System.ino` on the Arduino IDE
+* Connect the board to the computer
+* Ensure the board and port are set
+* Hit deploy
+
 ## Disclaimer
 
-Since this model operates on an extremely low powered and memory constrained MCU, there are chances of occasional occurences of False positives and False negatives. Further improvements on the dataset and model is required to make the model more generalisable before real world deployement. <br>
+Since this model operates on an extremely low powered and memory constrained MCU, there are chances of occasional occurences of False positives and False negatives. Further improvements on the dataset and model is required to make the model more generalisable before real world deployment. <br>
