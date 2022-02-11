@@ -53,7 +53,7 @@ The MCU used is Arduino Nano 33 BLE Sense with Headers. It has an SRAM of 256 Kb
 ### Dataset
 
 **Audio Dataset** <br>
-The audio dataset consists of audio samples of length 2 sec recorded by me uttering the keyword 'Alexa'. It also contains audio samples from the publicly available Pete's Keyword Spotting Dataset for unknown and background noise data. <br>
+The audio dataset consists of audio samples of length 2 sec recorded by me uttering the keyword 'Alexa'. It also contains audio samples from the publicly available Pete's Keyword Spotting Dataset for unknown, silence and background noise data. <br>
 
 **Image Dataset** <br>
 The image dataset consists of images of myself captured using the OV7670 camera module under 2 classes (i.e masked and unmasked). <br>
