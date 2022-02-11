@@ -43,7 +43,7 @@ Even if we have great datasets spanning across all the sections of the society a
 ### Dataset
 
 **Audio Dataset** <br>
-The audio dataset consists of audio samples of length 2 sec recorded by me uttering the keyword 'Alexa'. Also added audio samples from the publicly available Pete's Keyword Spotting Dataset for unknown and background noise data. <br>
+The audio dataset consists of audio samples of length 2 sec recorded by me uttering the keyword 'Alexa'. It also contains audio samples from the publicly available Pete's Keyword Spotting Dataset for unknown and background noise data. <br>
 
 **Image Dataset** <br>
 The image dataset consists of images of myself captured using the OV7670 camera module under 2 classes (i.e masked and unmasked). <br>
