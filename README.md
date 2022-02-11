@@ -76,7 +76,6 @@ MobileNetV1 trained on the 96x96 Grayscale images. <br>
 git clone https://github.com/suburban-daredevil/Smart-Mask-Enforcement-System.git
 
 ```
-
 * Open `Smart-Mask-Enforcement-System.ino` on the Arduino IDE
 * Connect the board to the computer
 * Ensure the board and port are set
