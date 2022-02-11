@@ -12,13 +12,15 @@
 
 ## Purpose of the project
 
-Masks are one of the two primary weapons that we have against the unwanted neighbour of ours (of course the COVID-19 virus). We all know the importance of wearing masks in public places <br>
+Masks are one of the two primary weapons that we have against the unwanted neighbour of ours (of course the COVID-19 virus). Scientifically, proper mask wearning can protect us from the virus and also prevent the spread of the virus. We all know the importance of wearing masks in public places. Even then, it becomes difficult for Governments to implement proper mask wearing in public places. This project aims at solving that issue <br>
+
+## Description of the project
+
+Imagine a system present at door of offices, schools, closed public places and other potential areas where it allows people inside only if they are masked. They are not allowed if they are unmasked.
 
 Presenting to you - **Smart Mask Enforcement System** <br>
 
-This is a TinyML application which intelligently predicts whether you are present or not using the input it recieves through its inbuilt microphone and then predicts whether you are masked or not through the input it recieves through its camera module (the OV7670 camera module) <br>
-
-## Description of the project
+This is a TinyML application which operates on the MultiTenant Cascading architecture. This TinyML application intelligently predicts whether you are present or not using the input it recieves through its inbuilt microphone and then predicts whether you are masked or not through the input it recieves through its camera module (the OV7670 camera module) and actuates appropriate responses <br>
 
 ## Constraints and Challanges
 
