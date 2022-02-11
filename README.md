@@ -34,6 +34,16 @@ Since this is a TinyML application, memory is a big constraint. Hence it becomes
 **Model** <br>
 Even if we have great datasets spanning across all the sections of the society and excellent models to make predictions, due to the memory constraints imposed by the MCU, it becomes almost impossible to use those models on our MCU. Hence we have a fixed subset of small models that could be used with our MCU. <br>
 
+**MCU** <br>
+The MCU used is Arduino Nano 33 BLE Sense with Headers. It has an SRAM of 256 Kb and a flash memory of 1 MB. The camera module used is OV7670 camera module. <br>
+
+**Tools, Frameworks and Languages** <br>
+* Python
+* Tensorflow
+* Tensorflow-lite
+* Tensorflow-lite-micro
+* Edge Impulse
+
 ## Demo
 
 ## Images
