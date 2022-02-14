@@ -28,8 +28,8 @@ constexpr int kNumChannels = 1;
 constexpr int kMaxImageSize = kNumCols * kNumRows * kNumChannels;
 
 constexpr int VWWCategoryCount = 2;
-constexpr int kPersonIndex = 0;
-constexpr int kNotAPersonIndex = 1;
+constexpr int kMaskedScore = 0;
+constexpr int kUnmaskedScore = 1;
 extern const char* VWWCategoryLabels[VWWCategoryCount];
 
 #endif  // TENSORFLOW_LITE_MICRO_EXAMPLES_PERSON_DETECTION_MODEL_SETTINGS_H_

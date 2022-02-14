@@ -207,6 +207,9 @@ void loop() {
                               vww_input->data.int8)) {
       TF_LITE_REPORT_ERROR(error_reporter, "Image capture failed.");
     }
+    else{
+      TF_LITE_REPORT_ERROR(error_reporter, "Image captured successfully.");
+    }
   
     // Run the model on this input and make sure it succeeds.
     if (kTfLiteOk != vww_interpreter->Invoke()) {
@@ -217,8 +220,8 @@ void loop() {
     }
   
     // Process the inference results.
-    int8_t person_score = vww_output->data.uint8[kPersonIndex];
-    int8_t no_person_score = vww_output->data.uint8[kNotAPersonIndex];
+    int8_t person_score = vww_output->data.uint8[kMaskedScore];
+    int8_t no_person_score = vww_output->data.uint8[kUnmaskedScore];
     RespondToDetection(error_reporter, person_score, no_person_score);
   }
   
