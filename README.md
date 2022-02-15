@@ -46,9 +46,13 @@ The MCU used is Arduino Nano 33 BLE Sense with Headers. It has an SRAM of 256 Kb
 
 ## Demo
 
-The demo of the project can be viewed [here](https://youtu.be/RZ0_U-1FPfE)
+The demo of the project can be viewed here
 
 ## Images
+
+![img1](https://user-images.githubusercontent.com/70901321/153982184-3d8097a6-96a2-41f7-ab78-b9d50e6317ef.jpeg)
+
+![img2](https://user-images.githubusercontent.com/70901321/153982208-e96d1390-d78e-4e6c-a8ab-c38ef529a6e2.jpeg)
 
 ## Specifications of the project
 
