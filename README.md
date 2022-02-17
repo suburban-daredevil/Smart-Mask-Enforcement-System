@@ -46,13 +46,15 @@ The MCU used is Arduino Nano 33 BLE Sense with Headers. It has an SRAM of 256 Kb
 
 ## Demo
 
-The demo of the project can be viewed here
+The demo of the project can be viewed [here](https://youtu.be/GtIcKYV8VBM)
 
 ## Images
 
 ![img1](https://user-images.githubusercontent.com/70901321/153982184-3d8097a6-96a2-41f7-ab78-b9d50e6317ef.jpeg)
 
 ![img2](https://user-images.githubusercontent.com/70901321/153982208-e96d1390-d78e-4e6c-a8ab-c38ef529a6e2.jpeg)
+
+![Smart-Mask-Enforcement-System-image](https://user-images.githubusercontent.com/70901321/154543494-5d8d8215-245d-4db9-9134-c35cc0e76859.jpeg)
 
 ## Specifications of the project
 
