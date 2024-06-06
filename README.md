@@ -44,10 +44,6 @@ The MCU used is Arduino Nano 33 BLE Sense with Headers. It has an SRAM of 256 Kb
 * Tensorflow-lite-micro
 * Edge Impulse
 
-## Demo
-
-The demo of the project can be viewed [here](https://youtu.be/GtIcKYV8VBM)
-
 ## Images
 
 ![img1](https://user-images.githubusercontent.com/70901321/153982184-3d8097a6-96a2-41f7-ab78-b9d50e6317ef.jpeg)
